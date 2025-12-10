@@ -1,6 +1,6 @@
 
 
-# 🚀 Bitcoin Trading Intelligence Dashboard
+#  Bitcoin Trading Intelligence Dashboard
 
 A real-time trading dashboard that combines **Polymarket prediction markets** with **on-chain analytics** to generate high-confidence Bitcoin trading signals.
 
@@ -8,7 +8,7 @@ Based on the strategy of using narrative detection + quantitative confirmation f
 
 ---
 
-## 📊 What Does This Do?
+##  What Does This Do?
 
 This dashboard implements a three-phase trading strategy:
 
@@ -24,9 +24,9 @@ This dashboard implements a three-phase trading strategy:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 1️⃣ Real-Time Market Metrics
+### 1️ Real-Time Market Metrics
 - **Exchange Flows** - Whale accumulation vs distribution (negative = bullish inflows)
 - **Funding Rates** - Leverage cost & liquidation risk indicator
 - **Open Interest** - Total leverage in the market
@@ -34,7 +34,7 @@ This dashboard implements a three-phase trading strategy:
 - **Volatility Index** - 30-day implied volatility
 - **Spot-Perp Spread** - Basis between spot and perpetual futures
 
-### 2️⃣ Polymarket Narrative Tracker
+### 2️ Polymarket Narrative Tracker
 Monitors prediction markets that directly impact Bitcoin:
 - BTC price targets (e.g., "$100K by March 2025")
 - Fed rate decisions
@@ -64,7 +64,7 @@ Each narrative gets scored 0-5 based on data alignment:
 - ✓ Volatility appropriate for narrative
 - ✓ Leverage levels moderate
 
-### 4️⃣ High-Confidence Trade Setups
+### 4️ High-Confidence Trade Setups
 Auto-generates trade ideas with:
 - **Direction** (LONG/SHORT)
 - **Entry Price** (current BTC price)
@@ -77,7 +77,7 @@ Only displays setups with confirmation score ≥3/5.
 
 ---
 
-## 🎯 How to Use This Dashboard
+##  How to Use This Dashboard
 
 ### Step 1: Watch the Narrative Section
 Look for **probability changes >10%** on relevant markets.
@@ -121,7 +121,7 @@ Confidence: 80%
 
 ---
 
-## 🔧 Current Implementation
+##  Current Implementation
 
 **Status:** Demo/Simulation Mode
 
@@ -133,7 +133,7 @@ The dashboard currently uses:
 
 ---
 
-## 🚀 Production Integration Roadmap
+##  Production Integration Roadmap
 
 To make this dashboard production-ready, integrate:
 
@@ -192,7 +192,7 @@ setMarketData(processMetrics(metrics));
 
 ---
 
-## 📈 Trading Strategy Logic
+## Trading Strategy Logic
 
 ### Confirmation Scoring Algorithm
 
@@ -249,7 +249,7 @@ function analyzeConfirmation(narrative, marketData) {
 
 ---
 
-## 🎨 Dashboard Sections Explained
+##  Dashboard Sections Explained
 
 ### Top Bar
 - **BTC Price** - Real-time Bitcoin price
@@ -283,7 +283,7 @@ Color-coded cards showing critical on-chain indicators:
 
 ---
 
-## 💡 Example Use Cases
+##  Example Use Cases
 
 ### Use Case 1: Fed Rate Cut Signal
 ```
@@ -316,7 +316,7 @@ Action: No trade generated - wait for better setup
 
 ---
 
-## ⚠️ Important Disclaimers
+##  Important Disclaimers
 
 1. **Not Financial Advice** - This is an educational tool demonstrating a trading strategy
 2. **Demo Data** - Current version uses simulated data for demonstration
@@ -326,7 +326,7 @@ Action: No trade generated - wait for better setup
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 - **Framework:** React
 - **Styling:** Tailwind CSS
@@ -336,7 +336,7 @@ Action: No trade generated - wait for better setup
 
 ---
 
-## 📝 Configuration Options
+##  Configuration Options
 
 ### Adjust Confirmation Thresholds
 
@@ -367,7 +367,7 @@ const TRADE_CONFIG = {
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Connect to live Polymarket API
 - [ ] Integrate real on-chain data providers
@@ -382,7 +382,7 @@ const TRADE_CONFIG = {
 
 ---
 
-## 📚 Strategy Background
+##  Strategy Background
 
 This dashboard implements the trading methodology described in:
 **"How to Use Polymarket + Kashli to Trade Bitcoin More Efficiently"**
@@ -401,7 +401,7 @@ This dashboard implements the trading methodology described in:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This is a demonstration project. For production use:
 
@@ -414,7 +414,7 @@ This is a demonstration project. For production use:
 
 ---
 
-## 📧 Support & Questions
+##  Support & Questions
 
 For questions about the strategy or implementation:
 - Review the source code comments
@@ -424,7 +424,7 @@ For questions about the strategy or implementation:
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 1. Copy the React component code
 2. Run in Claude Artifacts or your React environment
